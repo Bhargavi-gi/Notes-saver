@@ -1,0 +1,12 @@
+CREATE DATABASE Notes_saver;
+USE Notes_saver;
+CREATE TABLE Notes(
+id INT PRIMARY KEY 
+AUTO_INCREMENT,
+title VARCHAR(200) NOT NULL,
+content TEXT NOT NULL,
+note_date DATE
+
+);
+SELECT *from notes;
+SELECT COUNT(*)FROM notes;
